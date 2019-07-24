@@ -1,0 +1,58 @@
+"use strict";
+
+exports.__esModule = true;
+exports.default = createEasingFunction;
+/*
+  Mirror easing
+  
+  Mirrors the provided easing function, used here for mirroring an
+  easeIn into an easeInOut
+  
+  @param [number]: Progress, from 0 - 1, of current shift
+  @param [function]: The easing function to mirror
+  @returns [number]: The easing-adjusted delta
+*/
+var mirrorEasing = function (method) {
+  return function (progress, strength) {
+    return progress <= 0.5 ? method(2 * progress, strength) / 2 : (2 - method(2 * (1 - progress), strength)) / 2;
+  };
+};
+
+/*
+  Reverse easing
+  
+  Reverses the output of the provided easing function, used for flipping easeIn
+  curve to an easeOut.
+  
+  @param [number]: Progress, from 0 - 1, of current shift
+  @param [function]: The easing function to reverse
+  @returns [number]: The easing-adjusted delta
+*/
+var reverseEasing = function (method) {
+  return function (progress, strength) {
+    return 1 - method(1 - progress, strength);
+  };
+};
+
+/*
+  Easing class
+
+  If provided easing function, returns easing function with 
+  in/out/inOut variations
+
+  If provided four arguments, returns new Bezier class instead.
+*/
+function createEasingFunction(method) {
+  var easingFunction = function (progress, strength) {
+    return method(progress, strength);
+  };
+
+  easingFunction.in = function (progress, strength) {
+    return method(progress, strength);
+  };
+  easingFunction.out = reverseEasing(method);
+  easingFunction.inOut = mirrorEasing(method);
+
+  return easingFunction;
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9hY3Rpb25zL2Vhc2luZy9jcmVhdGUtZWFzaW5nLmpzIl0sIm5hbWVzIjpbImNyZWF0ZUVhc2luZ0Z1bmN0aW9uIiwibWlycm9yRWFzaW5nIiwibWV0aG9kIiwicHJvZ3Jlc3MiLCJzdHJlbmd0aCIsInJldmVyc2VFYXNpbmciLCJlYXNpbmdGdW5jdGlvbiIsImluIiwib3V0IiwiaW5PdXQiXSwibWFwcGluZ3MiOiI7OztrQkFnQ3dCQSxvQjtBQWhDeEI7Ozs7Ozs7Ozs7QUFVQSxJQUFNQyxlQUFlLFVBQUNDLE1BQUQ7QUFBQSxTQUFZLFVBQUNDLFFBQUQsRUFBV0MsUUFBWDtBQUFBLFdBQXlCRCxZQUFZLEdBQWIsR0FBb0JELE9BQU8sSUFBSUMsUUFBWCxFQUFxQkMsUUFBckIsSUFBaUMsQ0FBckQsR0FBeUQsQ0FBQyxJQUFJRixPQUFPLEtBQUssSUFBSUMsUUFBVCxDQUFQLEVBQTJCQyxRQUEzQixDQUFMLElBQTZDLENBQTlIO0FBQUEsR0FBWjtBQUFBLENBQXJCOztBQUVBOzs7Ozs7Ozs7O0FBVUEsSUFBTUMsZ0JBQWdCLFVBQUNILE1BQUQ7QUFBQSxTQUFZLFVBQUNDLFFBQUQsRUFBV0MsUUFBWDtBQUFBLFdBQXdCLElBQUlGLE9BQU8sSUFBSUMsUUFBWCxFQUFxQkMsUUFBckIsQ0FBNUI7QUFBQSxHQUFaO0FBQUEsQ0FBdEI7O0FBRUE7Ozs7Ozs7O0FBUWUsU0FBU0osb0JBQVQsQ0FBOEJFLE1BQTlCLEVBQXNDO0FBQ25ELE1BQUlJLGlCQUFpQixVQUFDSCxRQUFELEVBQVdDLFFBQVg7QUFBQSxXQUF3QkYsT0FBT0MsUUFBUCxFQUFpQkMsUUFBakIsQ0FBeEI7QUFBQSxHQUFyQjs7QUFFQUUsaUJBQWVDLEVBQWYsR0FBb0IsVUFBQ0osUUFBRCxFQUFXQyxRQUFYO0FBQUEsV0FBd0JGLE9BQU9DLFFBQVAsRUFBaUJDLFFBQWpCLENBQXhCO0FBQUEsR0FBcEI7QUFDQUUsaUJBQWVFLEdBQWYsR0FBcUJILGNBQWNILE1BQWQsQ0FBckI7QUFDQUksaUJBQWVHLEtBQWYsR0FBdUJSLGFBQWFDLE1BQWIsQ0FBdkI7O0FBRUEsU0FBT0ksY0FBUDtBQUNEIiwiZmlsZSI6ImNyZWF0ZS1lYXNpbmcuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICBNaXJyb3IgZWFzaW5nXG4gIFxuICBNaXJyb3JzIHRoZSBwcm92aWRlZCBlYXNpbmcgZnVuY3Rpb24sIHVzZWQgaGVyZSBmb3IgbWlycm9yaW5nIGFuXG4gIGVhc2VJbiBpbnRvIGFuIGVhc2VJbk91dFxuICBcbiAgQHBhcmFtIFtudW1iZXJdOiBQcm9ncmVzcywgZnJvbSAwIC0gMSwgb2YgY3VycmVudCBzaGlmdFxuICBAcGFyYW0gW2Z1bmN0aW9uXTogVGhlIGVhc2luZyBmdW5jdGlvbiB0byBtaXJyb3JcbiAgQHJldHVybnMgW251bWJlcl06IFRoZSBlYXNpbmctYWRqdXN0ZWQgZGVsdGFcbiovXG5jb25zdCBtaXJyb3JFYXNpbmcgPSAobWV0aG9kKSA9PiAocHJvZ3Jlc3MsIHN0cmVuZ3RoKSA9PiAocHJvZ3Jlc3MgPD0gMC41KSA/IG1ldGhvZCgyICogcHJvZ3Jlc3MsIHN0cmVuZ3RoKSAvIDIgOiAoMiAtIG1ldGhvZCgyICogKDEgLSBwcm9ncmVzcyksIHN0cmVuZ3RoKSkgLyAyO1xuICAgIFxuLypcbiAgUmV2ZXJzZSBlYXNpbmdcbiAgXG4gIFJldmVyc2VzIHRoZSBvdXRwdXQgb2YgdGhlIHByb3ZpZGVkIGVhc2luZyBmdW5jdGlvbiwgdXNlZCBmb3IgZmxpcHBpbmcgZWFzZUluXG4gIGN1cnZlIHRvIGFuIGVhc2VPdXQuXG4gIFxuICBAcGFyYW0gW251bWJlcl06IFByb2dyZXNzLCBmcm9tIDAgLSAxLCBvZiBjdXJyZW50IHNoaWZ0XG4gIEBwYXJhbSBbZnVuY3Rpb25dOiBUaGUgZWFzaW5nIGZ1bmN0aW9uIHRvIHJldmVyc2VcbiAgQHJldHVybnMgW251bWJlcl06IFRoZSBlYXNpbmctYWRqdXN0ZWQgZGVsdGFcbiovXG5jb25zdCByZXZlcnNlRWFzaW5nID0gKG1ldGhvZCkgPT4gKHByb2dyZXNzLCBzdHJlbmd0aCkgPT4gMSAtIG1ldGhvZCgxIC0gcHJvZ3Jlc3MsIHN0cmVuZ3RoKTtcblxuLypcbiAgRWFzaW5nIGNsYXNzXG5cbiAgSWYgcHJvdmlkZWQgZWFzaW5nIGZ1bmN0aW9uLCByZXR1cm5zIGVhc2luZyBmdW5jdGlvbiB3aXRoIFxuICBpbi9vdXQvaW5PdXQgdmFyaWF0aW9uc1xuXG4gIElmIHByb3ZpZGVkIGZvdXIgYXJndW1lbnRzLCByZXR1cm5zIG5ldyBCZXppZXIgY2xhc3MgaW5zdGVhZC5cbiovXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBjcmVhdGVFYXNpbmdGdW5jdGlvbihtZXRob2QpIHtcbiAgbGV0IGVhc2luZ0Z1bmN0aW9uID0gKHByb2dyZXNzLCBzdHJlbmd0aCkgPT4gbWV0aG9kKHByb2dyZXNzLCBzdHJlbmd0aCk7XG5cbiAgZWFzaW5nRnVuY3Rpb24uaW4gPSAocHJvZ3Jlc3MsIHN0cmVuZ3RoKSA9PiBtZXRob2QocHJvZ3Jlc3MsIHN0cmVuZ3RoKTtcbiAgZWFzaW5nRnVuY3Rpb24ub3V0ID0gcmV2ZXJzZUVhc2luZyhtZXRob2QpO1xuICBlYXNpbmdGdW5jdGlvbi5pbk91dCA9IG1pcnJvckVhc2luZyhtZXRob2QpO1xuXG4gIHJldHVybiBlYXNpbmdGdW5jdGlvbjtcbn1cbiJdfQ==

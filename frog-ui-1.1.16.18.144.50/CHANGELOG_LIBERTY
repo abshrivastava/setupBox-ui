@@ -1,0 +1,1309 @@
+1.1.16.18.150
+- [HOTFIX] Modified Package File
+- [TS][115761] Telugu language PO text trim/change exercise with Dish
+- [HOTFIX] Default focus on frequency-advance screen
+- [TS][116165] fingerPrint dynamic font-size
+
+1.1.16.18.149
+- [HOTFIX] Modified Package File
+- [HOTFIX] Disable Multi Language
+
+1.1.16.18.148
+- [HOTFIX] Modified Package file
+- [FIX][115075|115074] Default audio tunes to different track && UI language after reboot
+
+1.1.16.18.147
+- [HOTFIX] Modified package file
+- Revert "[HOTFIX] Disable Multi Language"
+- [HOTFIX] play in fast forward case
+- [FIX] [112381] Hit live play in fast forward case only when zero delta from live position
+- [HOTFIX] Tune to LC after master reset on IF2IF ON
+- [FIX] IF2IF from settings to AdvanceSetting
+
+1.1.16.18.146
+- [HOTFIX] Modified Package filed
+- [HOTFIX] Disable Multi Language
+- [FIX][113857] Add Apps Category Synopsis
+
+1.1.16.18.145
+- [HOTFIX] Modified package File
+- [HOTFIX] PO UpDate for 3 Multi lang (Tamil, Marathi,Telgu)
+- [US][113221|113222|113223]  Add 3 new UI languages (Tamil, Marathi,Telgu)
+- [FIX][114305] ad displays on top of apps catalog
+- [HOTFIX] Ignore enxio Error on Download Fail
+
+1.1.16.18.144.10
+- [HOTFIX] Updated package file
+- [HOTFIX] In HD, MainHub Recording Box not coming
+- [US][114811] add compressed assets/images/logos
+- [HOTFIX] enable UI resize
+- [US][115167] Action Box Resize on SD512
+- [US][115164] Channel List resize on SD512
+- [US][114811] Main Hub, Clock, Ad, Logo resize on SD512
+- [HOTFIX] remove multiple css for blue yellow button
+- [US][115188] Copy Right and License Info resize on SD512
+- [US][115252] Channel Search resize on SD512
+- [US][115187] CA sheet resize on SD512
+
+1.1.16.18.144.9
+- [HOTFIX] Updated package file
+- [HOTFIX] disable UI resize
+
+1.1.16.18.144.8
+- [HOTFIX] Modify Package File
+- [HOTFIX] Default focus on frequency-advance screen
+- [US][114379] HD promotional popUp text update
+- [FIX][115625] Volume bar timeouts during mute
+- [US][114379] Update PopUp text as per US
+- [US][115190] Transponder List under Channel Settings, resize on SD512
+- [US][115253] Fav Channel resize on SD512
+- [US][115170] STB Info Sheet resize
+- [US][115251][115189] MyAccount,HelpContectUs/SMSPg
+- [US][115166] Setting screen resize with SD512
+- [HOTFIX] Remove Multiple Setting Headers
+- [US][115175] Transponder sheet resize on SD512
+
+1.1.16.18.144.7
+- [HOTFIX] Modified package file
+- [FIX][115778] UI Screen crop fixed
+
+1.1.16.18.144.6
+- [US][115254] fixed headers and remove comments
+- Advanced Settings screen resize
+- [HOTFIX] Tune to LC after master reset on IF2IF ON
+- move IFTOIF from setting to advanceSetting
+- [SD ZAPPER] Pass Width*Height varible based
+- [HOTFIX] Updated package file
+- [US][114501] Implement reminder shortcut button
+
+1.1.16.18.144.5
+- [HOTFIX] modified package file
+- [FIX][115529] Fix deault focus on laguage button press
+- [TS][114819] add backgrond color instead of image
+- [FIX][115176] Color on the TV guide left pane is white
+- [TS][114819] SD02 01 [UI] Remove the unused dev image
+- [FIX] SD05-04, HD Management for SD Zapper
+- [US][114502] corrected exit button key code
+- [US][114502] Launch full screen live tv on exit button press
+- [US][114500|114467|114465] Add New buttons help tools mail help previous channel
+- [US][114519] Double press i button to open action box
+- [US][114814] Removal of Short cut buttons for TS feature
+- [US][114380] Modification to display 2 days of EIT Information
+
+1.1.16.18.144.3
+- [HOTFIX] Modified Packaged filed
+- [HOTFIX] Add Active Services on Home Page
+- [HOTFIX] Correct Modified Packaged file
+
+1.1.16.18.144.2
+- [HOTFIX] Modified package file
+- [US][114108|114110|114114] Removed PVR functionality
+- [HOTFIX] Implemented UniverseManager
+
+1.1.16.18.144.1
+- [BASELINE] Initial version
+- [SD ZAPPER] Pass Width*Height varible based
+- [SD ZAPPER] Initial version with PVR and HD Settings disabled
+- [HOTFIX] Ignore enxio Error on Download Fail
+
+1.1.16.18.144
+- [HOTFIX] Modified Package file
+- [FIX][113931] Ads are not updating after channel search
+- [FIX] [114153] Signal not found message doesn't disappears if signal disconnected and connected again
+- [FIX] [113920]  No error plate displayed whlie first time download the catalouge if STB has no signal
+- [FIX][114148] Channel Logo Flickering when channel Zap frequently
+
+1.1.16.18.143
+- [HOTFIX] MOdified package file
+- [FIX] recharge reminder popUp text Caps
+
+1.1.16.18.142
+- [HOTFIX] Modified Package file
+- [HOTFIX] fixed for Nosignal and Recharge Reminder
+
+1.1.16.18.141
+- [HOTFIX] Modified Package file
+- [HOTFIX] Recharge Reminder / Upper later on popUpmsg
+- [FIX] [113879] : Now if [checker] section is not present in webapp.cfg then easyscan will be launched on boot.
+- [FIX][113722] no error plate or black screen displays when full deactivation command send while STB is tuned to HD channel
+- [FIX] [113921] PO related Update on 14th Feb, 18
+- [FIX] [113932] <i> tag should be allow in description of app (Active Service)
+- Revert "[HOTFIX] PO changes and MOD revert"
+- Revert "[FIX] [112381] Hit live play in fast forward case only when zero delta from live position"
+- Revert "[HOTFIX] Increase Recharge Reminder Frequency"
+- [HOTFIX] PO changes and MOD revert
+- [FIX] [112381] Hit live play in fast forward case only when zero delta from live position
+- [HOTFIX] Increase Recharge Reminder Frequency
+
+1.1.16.18.140
+- [HOTFIX] Modified package file
+- [FIX][113668] apps catalog displays no apps found after scanning the channels
+- [FIX] [113672] Regional Hindi genre (1C 00) is not working
+- [FIX] [113598] Not able to do paragraphing and formatting of the text present in description
+- [FIX][113495] On update on ads, previously downloaded ads catalog files are not deleted from permanent storage (NAND)
+
+1.1.16.18.139
+- [HOTFIX] Modified package file
+- [FIX] [113462] Remove left-right arrows from apps and category list in active services
+
+1.1.16.18.138
+- [HOTFIX] Modifiy Package file
+- [FIX][113311 | 112802] Ads are not downloading |  Channel logo of another channel displays
+- [FIX][113310] ? displays on clock banner
+- [FIX][113252] PO related Update
+
+1.1.16.18.137
+- [HOTFIX] Modified Package file
+- [FIX][113153] Unsubscribed error plate doesn't come sometimes on fast zapping
+- [FIX] [112802] Channel logo of another channel displays on the action box of the channel on which default logo is present
+- [FIX][113142] Ad banner fades out in 2 steps with UI jerk
+- [HOTFIX] Apps category in center
+- [FIX][112137] Getting Hang while toggling between FAV Home
+
+1.1.16.18.136
+- [HOTFIX] Modified Package file
+- [FIX][112910 | 112454] Unsubscribed error plate and 5.1 icon displays and Program progress bar
+- [FIX][112805] Alignment of icons in Manual Recording is not correct
+- [FIX] [112700] focus comes on the 1st app when the catalog have less than 3 categories
+- [FIX] [112704] Linked to Tv channel Not playing exact lcn
+
+1.1.16.18.135
+- Modified package file
+- [FIX][112454] Unsubscribed error plate comes on subscribed channel sometimes on zapping
+- [FIX][112195] Update the Misisng Logos in EPG
+- [FIX][112447] wip OK Btn not Working at conflictPopUp when we schedule next prog at another epg page
+- [FIX][112507] wip volume bar overlapping apps detail screen
+
+1.1.16.18.134
+- [HOTFIX] Modified Package file
+- [FIX][112439] Downloaded apps catalog not launching after factory reset in No signal
+- [FIX][112231] popup doesn't dismiss on pressing OK if USB connected on forced slide
+- [HOTFIX] DolbyLogo Fix
+- [FIX] [112369] UX of Active Service tab
+
+1.1.16.18.133
+- [HOTFIX] Modified package file
+- [FIX][112138] STB doesn't responds to RCU keys for 2-3 seconds after changing the UI language
+- [FIX] [111783] fast forward if FF key pressed on video pause mode
+- [HOTFIX] make variable for reminder conflict text
+- [FIX][112136] Generate PO file on top of 4.31.1.23
+- [HOTFIX] IF2IF change lang issues
+- [FIX] [112137] STB is getting Hang while toggling between FAV Menu
+
+1.1.16.18.132
+- [TS][112000] To avoid delay in first Add download if Ads are not on LC TP
+- [HOTFIX] Modified Package file
+- [HOTFIX] improvement  on ads version update on live
+- [HOTFIX] PO related strings, add variables in push apps development
+- [FIX][109235] reminder conflict msg lang issue
+- [FIX][109235] IF2IF pop-up messages lang issue
+- [FIX][111887] LED blinking stops if 2nd consecutive recording starts
+- [HOTFIX] Enable on-screen UI logs in development mode
+- [FIX][111943] after activation hang issue
+
+1.1.16.18.131
+- [HOTFIX] Modified Package file
+- [TS][111092][US][108125] Dlmanager modification to handle multiple TP
+
+1.1.16.18.130
+- [HOTFIX] Modify Package file
+- [FIX][111859] Volume bar disappears if audio is Mute
+- [HOTFIX] Date and Time overlaps in settings
+- [FIX][111892] Apps catalog downloading progress bar resets sometimes and starts from zero
+- [HOTFIX] Correction the URL Request for Application
+
+1.1.16.18.129
+- [HOTFIX] Increase the Timmer for Downloading Application
+- [HOTFIX] Modified Package file
+- [FIX][111794] Ad banner of TV Guide displays on Main Hub if Main Hub banner is not present in stream
+- [FIX][110150] Apps catalog doesn't download sometimes
+- [FIX] [111795] VC is not available in 102 error plate
+
+1.1.16.18.128
+- [HOTFIX] Modified package file
+- [FIX] linked to tv channel from service apps
+- [FIX] [111730] Random behavior of price data on 103 error plate
+- [HOTFIX] Remove  indenttion Error
+- [FIx][110150] Apps catalog doesn't download sometimes
+- [FIX] [108897][109618] NoChannel & dateTimeOverlap in STBInfosheet
+- [FIX] [109397] Volume bar stucks on standby wakeup
+- [HOTFIX] Modified Package file
+
+1.1.16.18.127
+- [HOTFIX] UI overlap when fail to download Application
+- [FIX] [111675] Jerk in home menu focus movement
+- [FIX][110218|110219|110220] Fix Timeshift Issues
+
+1.1.16.18.126
+- [HOTFIX] Modified package file
+- [HOTFIX] Application empty move fixed
+- [FIX][111586] Ad banners are not downloading on fly on live stream
+- [HOTFIX] combo btn issues
+- [FIX] [111583] displaying wrong genre
+
+1.1.16.18.125
+- [FIX][109035] - STB doesn't lands on changed LCN if changes made in LC descriptor while STB was power off
+- [HOTFIX] Modified package file
+- [FIX][111562|111563] Disable 302 Popup and fix FTA issue
+- [FIX] [109215] EPG is not displayed on selecting Hindi/ English sub-genre if Regional >> sub-grenre was prior selected
+- [HOTFIX] reminder issues
+
+1.1.16.18.124
+- [HOTFIX] Modified package file
+- [FIX][111500] Application Catalog download on Nand after version Check on each request
+- [FIX][111512] Reminder conflict is not coming on scheduling reminders on different channels
+
+1.1.16.18.123
+- [HOTFIX] Modified package file
+- [FIX][111087] Handling of Ongoing Record Uses cases and Reminder use cases
+
+1.1.16.18.122
+- [HOTFIX] Modified Package Version
+- [FIX] [111209] UI changes for Asset filter removal and adapt new NIT changes from MW
+
+1.1.16.18.121
+- Modified Package file
+- [HOTFIX] Fixed not to trigger recharge reminder on first install and scan
+- [HOTFIX] Reboot on standby and clock banner on file open
+- [HOTFIX] Player tune in First install
+- [FIX][110287][111163] STB Boot time increased && Downloaded Ad Banners are not displayed every time after reboot
+- [HOTFIX] update the channelList on Language change
+
+1.1.16.18.120
+- [HOTFIX] Modified package file
+- [US][104049] [104050] TV Grid display EIT info with the correct language / src/app/models/Settings.js
+
+1.1.16.18.119
+- [HOTFIX] Modified package file
+- [FIX] [110286] Clock banner doesn't display on My recording page if it is opened via hot key
+- [FIX] [110881] Ad Banners are not displayed on any location during the single digit date (1st to 9th)
+- [FIX][108978] Record button doesn't works on landing channel after reboot
+
+1.1.16.18.118
+- [HOTFIX] Modified Package File
+- [FIX][103001] To inform SRS that UI is Up
+- [FIX][110287] STB Boot time increased
+- [FIX][110131] 404. not found error displays sometimes on apps launch
+- [105990][Ext]STB showing black screen if signal is weak (Signal Strength 20% - 40%), no error message is displayed
+- [HOTFIX] Show Progress Status on Application download
+- [FIX] [109612] remove pvr conflict pop up
+- [FIX] [106514]  Playback of the recorded content stops and returns to My Recordings screen if the ongoing record is complete during playback
+- [FIX] [110290] Unable to zap if scheduled recording starts
+
+1.1.16.18.117
+- [HOTFIX] Modified package file
+- [FIX] [109486] Remove player resume workarounds
+- [FIX] [110222] MOD tune without programInfo
+- [FIX] [98682] Channel List shrinks during Up/Down pressing
+- [FIX] [110149] popup displays sometimes even if apps are not launched
+
+1.1.16.18.116
+- [HOTFIX] Modified package.json file
+- [FIX][110147] Active service downloading banner doesn't displays if OK pressed on 804-Recording alert
+- [FIX] [110127] Ad banner doesnot update until we press any RCU key
+- [HOTFIX] Ads banner in Powerstandby
+- [FIX][109943] Remove default Banner..
+- [HOTFIX] whenever clockHomeMenu is opened On homeBtn click Clock flickering But homeMenu is not flickering
+- [FIX] [109462] On pressing FAV key STB doesn't tune to fav. channel when recording is in-progress on non-fav. channel
+- [FIX] [109895] On launching apps, launch button & app icon displays twice or thrice
+- [FIX] [109790] Ad banners doesn't downloads if the previous stream scanned
+
+1.1.16.18.115
+- [HOTFIX] Modify package file
+- [FIX][108900] [Ads location]: channel list & info. banner Ads are interchanged with each other as compared to backend defined placements
+- [FIX][109885] Channels Added/Removed from Favourite and Favourite Mode selection saved even on Cancel & Exit
+- [FIX][108979] [EXT][Favourite] [Dish Marketing Request] Placement of Heart icon (Fav channel) should be towards right end on top of Channel Name
+- [HOTFIX] Changes for LC in bootTime
+- [HOTFIX] Handle the call of increasing LC in UI
+- [FIX] [109035] [109483] land on Newly configured LCN and  STB doesn't land on all 3 configured LCN after boot
+- [FIX] [109486] Check added Before new play request for TSB
+- [FIX] [108562] handle reminderTOreminder_reminderTorecord_recordTorecord_recordToreminder_conflicts_after_SoftwareUpdate
+- [FIX] [109333] 803 to 804
+- [FIX] [103349] right navigation key 1st time going left
+- [FIX] [109394] added favourite not saved
+- [FIX] [109333] STB Infosheet text written as Transponder list
+- [HOTFIX] Remove_Radio_Universe
+- [FIX] [109463] remove waitReflow import
+- [FIX] [109463] HomeMenu first smooth landing
+- [FIX][109035] STB doesn't lands on changed LCN if changes made in LC descriptor while STB was power off
+- [FIX] [109463] menu smoothness
+
+1.1.16.18.114
+- [HOTFIX] Modified package file
+- [FIX][108900] Channel list and info banner ads are interchanges
+- [HOTFIX] default Ad banner will not display
+- [FIX] [108805] Ad banners still displays if campaign duration expired
+- [TS] Investigation of the issues reported in frog-liberty-4.31.1.3
+- [HOTFIX] correct the filed in timezones
+- [HOTFIX] Modify Deleting of Notification
+- [HOTFIX] unTune Home TP after Scan
+- [HOTFIX] Five Banner
+
+1.1.16.18.113
+- [HOTFIX] Modified package file
+- [US] [107988] Adv,(4) Campaign update during live (step1 dwld 1TP with Resume)
+
+1.1.16.18.112
+- Updated Package File
+- [TS][108812] correct  Rebaseing Push app and Push ads for URL path
+- [TS][108812] Rebasing Liberty Phase 2 with master
+
+1.1.16.18.111
+- [HOTFIX] Resloved Home Press while recoding ongoing and Playback ongoing
+- [HOTFIX] Remove # 106514
+- [HOTFIX] Modified package file
+- [FIX] [107524] [108795] STB skips splash screen and force slide while bootup && Last day forced slide and LC still tunes after reboot
+- [FIX] [108562] Reminder Conflict No POpUp
+- [HOTFIX] Remove LC/FC Check on Subscribution Event
+- [HOTFIX] update PO file as sharedBy Nihal 31102017
+- [HOTFIX] Fix for LC
+
+1.1.16.18.110
+- [HOTFIX] Modified package file
+- [FIX] [108970] STB lands on LC: 95 after channel search/SVL update or factory reset instead of LC defined in descriptor
+- [FIX] [108795] [108781] STB skips splash screen & Dunning landing channel on boot even after recharge
+- [FIX] [109165] sublist text position
+- [FIX] [109165] same background as Channel List in Genre
+
+1.1.16.18.109
+- Updated Package File
+- [HOTFIX] restPOChanges
+- [FIX][109033] Integrate new PO file
+- [HOTFIX] bell shift to top 10px in guide
+- [HOTFIX] changes with Rohit
+- Removed PO changes
+- [HOTFIX] removeSpace and SelectGener, FromatHardDisk, CopyRightLicense add variable for change language
+- [FIX] [107284] OK Button not working on 804 Recording, handled corner case
+- [FIX] [108797] MOD modifications, add updated icon
+- [FIX] [108797] MOD modifications, pass static serviceId
+- Revert "[FIX][109033] Integrate new PO file"
+- [FIX][109033] Integrate new PO file
+
+1.1.16.18.108
+- [HOTFIX] Update Package File
+- [FIX] [108013] Stop record option in ActionBox
+- [FIX] [108477] change visibility location of CRI logo
+- Defect 106514
+- [FIX] [108270] Fix Reminder Message
+- Fix  Locale Changes
+- [HOTFIX] ALI Stop Play Call
+
+1.1.16.18.107
+- Updated Package File
+- [FIX] [108197] [108232] [108231] Fix Epg Changes
+- [FIX] [107284] OK Button not working on 804 Recording Alert popup after ongoing recording is complete
+- [FIX] [108114] Favourite Screen channelList overlaping
+- [FIX] [108013] Stop record option not displaying on live channel option menu if manual scheduled recording starts on the channel
+
+1.1.16.18.106
+- [HOTFIX] modified package file
+- [FIX][108248] Correct the FS Duration in Standby
+
+1.1.16.18.105
+- Modified Package file
+- [FIX] [108060] Favourite Issues, Favorite LCN, Mannual Record Remove Am/Pm in 24 Format
+
+1.1.16.18.104
+- Updated Package File
+- [HOTFIX] ProgramInfo Getting Remove
+- [US][99389] Licence & Copyright
+- [FIX][108012][108018] favourites defects
+- [FIx][107959][106959] Activate service Remove
+
+1.1.16.18.103
+- [HOTFIX] Modified Package File
+- [FIX][106417] Locale Changes
+- [HOTFIX] Add ScanManager in PowerManager
+- [HOTFIX] fix-lcn line change after 4digit in CRT
+- [HOTFIX] fix-lcn space in crt
+- [HOTFIX] [0] usb icon residues
+- [HOTFIX] On pause, openChList click-back program-info getting remove
+- [HOTFIX] Removed Delay from Info Banner
+- [HOTFIX] enhance clock animation, no need of clock-inner div translation
+- [FIX] [106960] Timeout for entering LCN space Fix
+- [FIX][106960] Timeout for entering LCN space
+- [FIX] [107109] Play info bar not dismissed
+- [FIX] [107025] Volume bar is displayed at the border on some TV models fix
+- [FIX] [107025] Volume bar is displayed at the boarder on some TV models
+- [FIX] [107108] Info bar is not timedout during Recording Play back
+- [FIX][103618][99541] Info Bar Smoothness
+
+1.1.16.18.102
+- [HOTFIX] Modified Package File
+- [US] [106343] [106339] [FIX] [107524] [107285] LC and FC on boot and standby and grace period
+- [HOTFIX] Remove Trailing Space
+- [FIX] [105574] recording conflict handled on TP List
+- [FIX][106963],Unable to navigate to channels not in Favorite, after edit Fav channels
+- [FIX] [106344] Fix Order of genre
+- [FIX] [106417] FIX Recording vs Reminder Issue
+- [FIX] [106819] Bell Icon Position Change
+- [FIX][105854] STB is showing black screen on wake up from Standby if STB rebooted in Standby Mode when the SVL version change is triggered
+- [FIX] [106968] Green LED starts blinking if STB rebooted
+- [FIX] [106960] Timeout for entering LCN space
+
+1.1.16.18.101
+- [HOTFIX] Modified Packed file
+- [US][106341 | 106343 | 106339 | 106342] FS and LC Recharge Reminder
+- [US][106348] F03-47, TVGrid (3) TV Grid from Live stream
+- [FIX][106299|106296],current channel automatically added to favourite and channel Remove  Issue
+- [FIX] [106554] removed daily/weekly/weekday recurrences from manual recording
+- [FIX] [106589] Fix Text Of Cancel Record
+- [FIX] [106388] Fix Cancel Reminder If No EPG
+- [US][101347 106349 106351 106344] EPG Changes With Transparency and blue key in grid
+- [FIX][106611] Fix USB PopUp Issue
+- Merge branch 'wip_106387_Stop_record_option_displays_on_action_box_on_live_channel' into 'master'
+- [FIX] [106387] Stop record option displays on action box on live channel if manual record schedule for a channel having EPG
+
+1.1.16.18.100
+- [FIX] [106386] If manual record is in progress then we are unable to change channel
+- [HOTFIX] [Modified Package file and Remove log]
+- [FIX][104998] Fix USB Format Issues with Recording
+- [FIX] popup message of reminder
+- [FIX][103674] black screen on cancel-exit with ongoing rec
+- [FIX] [104099] pop up stuck and UI overlaps if we open GuideFilter on on-going recording channel and pressing MOD key
+
+1.1.16.18.99
+- [HOTFIX] Modified package json
+- [US] Changes related to Hungama Apps for Transpareny/Volume/Zaaping/Subscription Management
+
+1.1.16.18.98
+- [HOTFIX] Modified Package file
+- [FIX][105872][FIX][99106],delay 2-3 sec from MYdish menu,last tuned FAv
+- [FIX] [81038] fix icon issue and local changes
+- [FIX][105854] STB is showing black screen on wake up from Standby if STB rebooted in Standby Mode when the SVL version change
+- [HOTFIX] ACtive serice conflict with ongoing recording
+- [FIX] [105427] BUG105427 :- On Stopping recording on channel without EIT information,schedule manual record is getting deleted
+- [US][105817][105820][105821] F03-41, Fav improvement interms of alignment and Dish branding
+
+1.1.16.18.97
+- [HOTFIX] Modified package file
+- [HOTFIX] Remove Indent Error and Console log
+- Locale Changed of Reminder
+- FIX Rec Icon Issue
+- [FIX] EPG Multiple Reminder Issue
+- [US][103625] F03-20, CRI, Display the security state of service
+- [US] [81308][81039] [81040] Apply Program Reminder
+- [US][87303] PVR, Conflict/tuner, UseCase Record & Apps (Schedule & Ongoing)
+- [US]F03-40, TVGrid, align the Ch name with the clock
+- [US] F03-42 Ch logo file name should not be case sensitive
+
+1.1.16.18.96
+- [HOTFIX] update Package File
+- [HOTFIX] Fix for favourite list
+- [FIX] [103300] SPDIF mute unmute fix
+- [FIX] [103300] SPDIF mute fix
+- Merge branch 'master' of gitlab-india.wyplay.com:liberty/apps_frog-ui
+- [FIX][104998] Format HDD from Settings with Led
+- [HOTFIX] LED fix for USB Format
+- [FIX][104214] video Blinks on Boot with USB inserted
+- [FIX][104998] Format HDD from Settings with Led
+- [HOTFIX] LED fix for USB Format
+
+1.1.16.18.95
+- [HOTFIX] Update Package File
+- [FIX][104998] Format HDD from Settings
+- format_hdd_settings
+- [FIX][104998] format USB option in settings
+
+1.1.16.18.94
+- [HOTFIX] Updated Package File
+- [FIX] [101260] ChList doesnot disappears pressing pause after CHzapped
+- [FIX] [104521] Press Myfiles Hot key RecordList Home conflicting
+- [HOTFIX] Import ScanManager in PVRManager
+
+1.1.16.18.93
+- Merge branch 'master' of gitlab-india.wyplay.com:liberty/apps_frog-ui
+- [HOTFIX] Updated Package File
+- [FIX][105002]Unable to perform fast forward after rewind the content in time shift mode
+- "[HOTFIX] Fixed ongoing recording issue on First install"
+- src/services/managers/PVRManager.js
+- [HOTFIX] CSS Fix for Residues
+
+1.1.16.18.92
+- [HOTFIX] Updated package file
+- Revert "[FIX] [99542] USB connection banner footprints & program info animation"
+
+1.1.16.18.91
+- [HOTFIX] Update Package file
+- [FIX][99709] Volume Bar Stucks on Popups
+- Revert "[FIX] [103300] SPDIF mute unmute fix"
+- Revert "[FIX] [103300] SPDIF mute fix"
+- [FIX] [103300] SPDIF mute unmute fix
+- [FIX] [103300] SPDIF mute fix
+
+1.1.16.18.90
+- [HOTFIX] Updated Package File
+- [FIX][103958] Remove SKoda Ad Banner
+
+1.1.16.18.89
+- [HOTFIX] Updated package file
+- [100659] Fix for A/V blackout in case of video recording
+- [FIX] [99542] USB connection banner footprints & program info animation
+- [FIX][103674], REcording conflict handled thru FAV menu
+- [FIX] [103183] Issue-4,7,8
+- [FIX] [103183] Issue-4,7
+- [FIX] [103358] AdClock not displayed along with Home
+- [FIX][103393][Hindi text]: STB Info sheet text displaying in FTA block pages tab if language changed to Hindi
+- Version Bump 1.1.16.18.88
+- Revert "Version Bump 1.1.16.18.88"
+- Merge branch 'master' of gitlab-india.wyplay.com:liberty/apps_frog-ui
+- [HOTFIX] Updated Package file
+
+1.1.16.18.88
+- [HOTFIX] Updated Package file
+- [HOTFIX] Recording doesn't happen on channel on which USB hotplug is done
+- [FIX][103601][103790][102503] fixed LED issues with PVR and USB
+- [FIX] [99542] ChannelName leaving footprint
+
+1.1.16.18.87
+- [HOTFIX] Updated Package file
+- [FIX][102734] AV is Blank on Recording Start
+- [FIX][99106]Black screen is observed on next channel after removing the currently tuned fav channel
+- [FIX] [103364] FIX for TPList getting transparent.
+
+1.1.16.18.86
+- [HOTFIX]Updated Package File
+- [FIX] [103356] [PVR] On pressing Back Key over paused recording playback and then starting another recording playback causes Permanent A/V freeze
+- [HOTFIX] Fixed Title on Transponder Info Screen
+- [FIX][100659][PVR] Blank screen on Wake up from Standby after scheduling Manual Recording
+- [FIX][103483] Recording icon display infobanner
+- [FIX][103482][101723][99427] fix
+- [FIX][102871][PVR]: Unable to record events(Other than currently tuned) via guide and channel list if currently tuned channel is MOD
+
+1.1.16.18.85
+- [HOTFIX] Updated Package file
+- [FIX][98877][100421] Clock and Ad banner disappears pressing back key within 2 sec,playback start
+- [FIX][103491][PVR] No conflict pop up is displayed if 1st recording is in progress and 2nd recording is booked with in the 1st recording event time period
+- Revert "[FIX][103483] Recording icon display infobanner"
+- [FIX][103483] Recording icon display infobanner
+- [FIX][103248] UI language is set to English
+- [FIX][101392] Fix Start/End Time on Info Bar and Channel List
+
+1.1.16.18.84
+- Merge branch 'wip_PVR_Issue' into 'master'
+- [HOTFIX] PVR fix related to task schedule mismatch
+
+1.1.16.18.83
+- [HOTFIX] Updated Package File
+- [FIX][102602] clock,Ad banner disappears
+- [FIX] [94039][94249] repeated LcnLogo and missing LcnLogo after night out
+- [FIX][102871] Unable to record when currently tuned channel is MOD
+- [FIX] [99542] appearing/disappearing of info banner - program info
+- [FIX][99813] Locale changes for the new popups of Favourite/PVR conflicts
+- [FIX][99813] Handle PVR and Favourite's List conflict
+
+1.1.16.18.82
+- [HOTFIX] Update Package File
+- [FIX][96150] Recorded Content Playback
+
+1.1.16.18.81
+- [HOTFIX]Updated Package File
+- [FIX] [97600] Forward/Rewind banner stucks during tricks play
+- [FIX][103108]Ignore Instant Messages on Boot-up
+- [FIX][102220] [PVR]Recording info banner stuck on LIVE TV while pressing HOME/fav key from recorded content
+- Merge branch 'master' of gitlab-india.wyplay.com:liberty/apps_frog-ui
+- [FIX][103033]Trick forward mode is not working if content plays in timeshift mode
+- Trick forward mode is not working if content plays in timeshift mode
+- Merge branch 'master' of gitlab-india.wyplay.com:liberty/apps_frog-ui
+- [FIX][99427]Timeshift is not working if USB less size
+- Timeshift is not working if USB less size
+- [FIX][100338] UI crash on USB plug-in during STB boot
+- [FIX] [101259] Fix for Clock/Add Banner dissappear in two scenarios.
+- [HOTFIX] Fixes for instant Messages
+- Merge branch 'master' of gitlab-india.wyplay.com:liberty/apps_frog-ui
+- Merge branch 'master' of gitlab-india.wyplay.com:liberty/apps_frog-ui
+- [HOTFIX]Updated package file
+
+1.1.16.18.80
+- Updated package file
+- [81964] Review comments incorporated
+- [FIX] [81964] EPF will show data from 0-96hr
+- Avoid command queuing on repeated P+/P- key press and release
+- [FIX][101391] Sort Subscriptions based on name
+- [Hotfix] Fixed IF2IF and playback break
+- [FIX][99708] Hide Rewind banner on reaching start of buffer
+- [FIX][98352]Recordings are not reflecting in ManualRecord list
+- [HOTFIX] Update contact number for My Account missed call
+- [TS][102797] Increase Font Size on instant Message
+
+1.1.16.18.79
+- [HOTFIX] Update Package file
+- [FIX][100659] Tune current channel on wakeup if player is not PLAYING
+- [FIX][102320]Unable to record the event when STB is in paused state
+- [FIX][96889][FIX][102161] Record Indicator and continious black screen
+- [FIX][101325] Volume Key Long Press Is Used In Active Services
+- [FIX][10050] Previous Logo on Option Menu
+- [FIX][102064] Channel List is not dismissed
+- [FIX][102400] hide 'th, nd' from clock if language is hindi
+- [FIX][101392]Event end time Hidden on info banner
+- [FIX] [102119] Landing Channel Blank After Wake From StandBy After 90 Mins
+- [FIX] [102450] Fix for Pause Icon not dissapearing on resuming A/V playback on Timeshift Mode when USB Buffer is full
+- [FIX] [101599] Progress Bar is not Disappearing On Recording Playback 2
+- [FIX] [101599] Progress Bar is not Disappearing On Recording Playback
+- [FIX][101838] Dish TV text is in 3D
+- [FIX] [101123] ResumePlayBack Fix while recording is not completed
+- [HOTFIX] [101478] Reset Error Parental PopUP After StandBy OnOFF
+- [FIX][99190] No Recording Alert popup over My DishTV
+
+1.1.16.18.78
+- [HOTFIX] updated VERSION File
+- [HOTFIX] Updated Package File
+- Version Bump 1.1.16.18.77.8
+- updated package file
+- fixed No HD Pack popup issue
+- Version Bump 1.1.16.18.77.7
+- [HOTFIX] PO Hindi locale changes in favourites and sms services screen
+- [HOTFIX] Updated package file
+- [FIX] [102122] PO Changes Recharge Reminder Msg
+- [FIX][100351] Channel Blocked Pop up on subscribed channel
+- Version Bump 1.1.16.18.77.6
+- Updated Package File
+- [HOTFIX] Home Menu overlaps on STB Sheet
+- Version Bump 1.1.16.18.77.5
+- [HOTFIX] Updated Package file
+- [HOTFIX] Corrected Switch off date
+- [HOTFIX] fixed program details close action
+- [FIX][101867]Action screen stucks on program plus minus
+- Version Bump 1.1.16.18.77.4
+- [HOTFIX] Updated package file
+- [FIX][95625] Video of last viewed channel is displayed for 1-2 sec on watching different channel from EPG Grid
+- [FIX] [101745] Fix Black Screen Issue When Non Wxisting Channel Selected
+- [FIX][101832] Fingerprint display Issue
+- Version Bump 1.1.16.18.77.3
+- [HOTFIX] Updated Package File
+- Version Bump 1.1.16.18.77.2
+- [HOTFIX] Updated package file
+- Version Bump 1.1.16.18.77.1
+- [HOTFIX] Updated package file
+- [HOTFIX] [101478] dynamically_update_IF2IF_mode
+- [FIX][101602] Hindi Text Overlapping observed on most of the UI Screens
+- [FIX] [101325] Fix for Volume Keys doesnot work in Active Services
+- [FIX] [96255] Fast forward banner and info bar stucks on screen
+- [FIX][99330] handle universe on combo buttons
+- [FIX] [101478] correct condition
+- [FIX] [101478] Used separate password IF2IF
+- [FIX] [101478] password protected IF2IF access.
+- [FIX][101479] start LED blinking on instant recording
+
+1.1.16.18.77.8
+- updated package file
+- fixed No HD Pack popup issue
+
+1.1.16.18.77.7
+- [HOTFIX] PO Hindi locale changes in favourites and sms services screen
+- [HOTFIX] Updated package file
+- [FIX] [102122] PO Changes Recharge Reminder Msg
+- [FIX][100351] Channel Blocked Pop up on subscribed channel
+
+1.1.16.18.77.6
+- Updated Package File
+- [HOTFIX] Home Menu overlaps on STB Sheet
+
+1.1.16.18.77.5
+- [HOTFIX] Updated Package file
+- [HOTFIX] Corrected Switch off date
+- [FIX][101479] start LED blinking on instant recording
+- [HOTFIX] fixed program details close action
+- [FIX][101867]Action screen stucks on program plus minus
+
+1.1.16.18.77.4
+- [HOTFIX] Updated package file
+- [FIX] [101745] Fix Black Screen Issue When Non Wxisting Channel Selected
+- [FIX][101832] Fingerprint display Issue
+
+1.1.16.18.77.3
+- [HOTFIX] Updated Package File
+- [HOTFIX] [101478] dynamically_update_IF2IF_mode
+- [FIX][101602] Hindi Text Overlapping observed on most of the UI Screens
+
+1.1.16.18.77.2
+- [HOTFIX] Updated package file
+- [FIX] [101478] correct condition
+
+1.1.16.18.77.1
+- [HOTFIX] Updated package file
+- [FIX] [101325] Fix for Volume Keys doesnot work in Active Services
+- [FIX] [101478] Used separate password IF2IF
+- [FIX] [101478] password protected IF2IF access.
+
+1.1.16.18.77
+- [HOTFIX]Updated package.json
+- [FIX][101303] Guide doesn't disappears on zapping channel via Guide if signal is not available
+- [FIX] [101254] Volume is not decreased on holding vol- key until volume is Muted (Press and hold Vol- for 5 sec)
+- Merge branch 'master' of gitlab-india.wyplay.com:liberty/apps_frog-ui
+- [FIX][101256]review comments incorporated
+- review comments incorporated
+- Recharge Reminder popup auto timed out removed
+- [FIX][97576]LED blinking on recording
+- [FIX] [100604] AdBanner_Early_Disappear
+- [FIX][101255] removed extra empty entries from timezone format
+- [HOTFIX] Remove fields as mentioned in ticket 98517
+- [FIX][97576]No led blink during schudle record come from standby
+- [FIX] [101297] ActiveGames Launch button below description
+- [FIX] [99782] overlapping(My DishTV/Advanced Search with HOME) is observed on Long press of HOME on Transponder List
+- [FIX] [100232] Fix For Correcting Favourites Spelling
+- [FIX][100334] (Feedback from service Team) No signal text should be chnaged to signal not found on 301 error plate heading and PO file changes as per DISH
+- [FIX][98650] Green LED blinks on awake
+- [FIX][100033] Enable Standby RCU on appstore game
+
+1.1.16.18.76
+- [FIX] [100421] ClockAdBanner disappear from recording list page, back from recordingPlay
+- [HOTFIX] revert changes if fav closed without save
+- [HOTFIX] Modified package file
+- [FIX][96255] Fix forward stuck in timeshift mode
+- [FIX][99823] Update list when all fav channels are removed
+- [FIX] [100719] Channel List is not dismissed on pressing P+/P- to zap channels (Dismissed on press and hold of P+/-)
+- [FIX][99504] Remove calls / prev / next channel
+- [FIX][99504] Behaviour between P+/P- zap and Back Key are now the same.
+- [FIX][99818] Behaviour between P+/P- zap and Back Key are now the same.
+- [FIX][99818] Behaviour between P+/P- zap and Back Key are now the same.
+- Merge branch 'wip-100127' into 'master'
+- [FIX] [100443] To Display valid STB Serial Number
+- [FIX][100367]fix for ChannelList stuck on pressing Pause then Play over channel list
+- [FIX][100106] Duplicate recordings on reboot
+- [HOTFIX]modified color css changes
+- [FIX] [100127] STB hang on selecting the BACK option on recording alert message after pressing the MOD key when recording is ongoing on LIVE TV
+
+1.1.16.18.75
+- [HOTFIX] Modified package file and correct Force Slide timmer
+- [FIX] [99040] Add Favourite Message
+- [FIX] [99705] Fix for Clock banner stucks during timeshift playback
+- [FIX][100720] Fixed End Time Coming in InfoBar
+- [HOTFIX] sort resolutions as per vertical frequency
+- [FIX] [89903] EventQueue_delay_in_OkBackLeftRightOk
+- [FIX][89426]Combo button for UI Language not working
+- [HOTFIX] Change Add manual recording to Schedule Your Recording
+- [FIX][100638] Blink LED on recording
+- [HOTFIX] Changes in FontFamily & CSS suggested by dish
+- [FIX] [98003] - [PVR] DishTV logo Disappeared on playing recorded content [FIX] [98809] - [UI]: Dishtv Logo disappearing on live channel after instant record start and stopped
+- [HOTFIX] PO Changes according to DishTv
+- [FIX][96066] blocking RCU keys on popup in standby
+- [HOTFIX]FontFamily in variable state
+- [HOTFIX][PO file] (Prio1) Change the text of HOME to MENU in UI
+
+1.1.16.18.74
+- [FIX][99298] Selected Favorite channels lost after scan
+- [HOTFIX] Modified Package file
+- [FIX][97779] Recording Alert popup when recording starts
+- [HOTFIX] Recharge Reminder For Negative Value
+- [FIX][96658] fix for ok and back Key working on Please wait in scan complete popup [HOTFIX] optimizing code for scanning
+- [FIX][97274] Block player stop in standby when recording is ongoing
+- [HOTFIX] Apps change Title Position
+- [FIX] [99050] Hide channellist while recording popup
+- [HOTFIX] Button of TransponderInfo in FTA Mode
+- [FIX] [99705] Fix Adbanner Issue
+- [HOTFIX] Show Infobanner on numzap and handle multiple calls
+- [FIX][99026] Remove from fav text is truncated in HINDI AND ENG UI
+- [HOTFIX] modified package file
+
+1.1.16.18.73
+- [FIX] [99969] Advt banner artefact is displayed on every UI screen
+
+1.1.16.18.72
+- [HOTFIX] Import debounce in TV index
+- [HOTFIX] Modified packaged file
+- [HOTFIX]  Garbage screen in pop-up while switching three screen in FTA block
+- [FIX][93986] Configured channel logos are displayed for services with no logos configured
+- [FIX][99352] Adv Banner changes for cutting
+- [REVERT][HOTFIX] Remove debounce on play/zap
+
+1.1.16.18.71
+- [HOTFIX] Remove no-unused-vars
+- [FIX][98964] restrict set HDMI on currently set resolution
+- [FIX][98962] handle HDMI connection event
+- [HOTFIX] Garbage screen is pop-up while switching three screen in FTA block
+- [HOTFIX] Small locale change and npm path resolve in shrinkwrapjson
+- [US][99391] Apps, integration of the Apps for launch
+- [FIX] [98879]LED blinks on standby wakeup after recording completion
+- [HOTFIX] Modified package file and remove printLog and extra space
+- [HOTFIX] Remove debounce on play/zap
+- [HOTFIX][Multiple Dish Defects]
+- [FIX][98680] fix for No signal error & out of fta on deactivated box after first install
+- [FIX][89903] Event Queue
+- [HOTFIX] SetUIReady in case of scan
+- [FIX] [95140] Fix Start Scan Disablility on Setting
+- [FIX][97203] Comment Screen adjustment feature
+- [HOTFIX] Remove unecessary calls around play/zap
+
+1.1.16.18.70
+- [FIX][95625] last played video on zap from guide
+- [HOTFIX] Modified package file
+- [HOTFIX] Remove no-unused-vars and no-trailing-spaces
+- [FIX][89903] Event Queue
+- [FIX][95290] Animation of the previous screen is displayed on MainHub
+- [FIX] [99420] Fix Alignment of Plus Icon
+- [FIX][99359][99352]Advertisement Banner
+- [FIX][99418] Remove Resolution screens from FI
+- [FIX][98878] close current delegate on Advanced Scan
+- [FIX][98878] restrict scan for blanck Home TP/Symbol Rate
+- [FIX][99295] launch In Hindi UI, USB formatting text is display in English
+- [FIX][99308]: In hindi UI, Text need to be changed on pop-up after factory reset or channel search
+
+1.1.16.18.69
+- [HOTFIX] Change Default Logo
+- Modified package file
+- [FIX][99111][99114][99108]TransponderList issues
+- [FIX][99112][99113] Fav list/tune issue
+- [FIX][99298] Selected Favorite channels lost after scan
+- [FIX][93986][99417][99419] multiple fix related to channel list
+- [HOTFIX] correct tunetohometp method
+- [HOTFIX]removing unneccesary condition and updating scrolling fix for subscriptonList
+- Updated version in package file
+
+1.1.16.18.68
+- [FIX][92357] Update channels only after successful Channels processing
+- FIX[99115][99116] Fix combo button and hot key issues
+- [FIX][94039]Channel List continue scroll without RCU
+- [HOTFIX]Time Zone Format -India (GMT +5:30) (Default is not highlighted)
+- [FIX][98222] P+/P- keys are working on option menu invoked on LIVE
+- [FIX][98222] P+/P- keys are working on option menu invoked on LIVE
+- [FIX][98579] updation of HDD info in FTAblock mode and enable PVR once STB comes out of FTA
+- [US][85914] Update Hard disk Information under STBInfosheet Page dynamicallly after the record is complete
+- [FIX][98620] no to display label home to exit in fta mode
+
+1.1.16.18.67
+- [HOTFIX] modified package file
+- [HOTFIX] locale change of scan finish
+- [HOTFIX] Changed latest text on PO file
+- [HOTFIX] fix labels on popup & FI
+- [FIX][99025][PVR] Unable to play recorded content while current airing program is being recorded
+
+1.1.16.18.66
+- [HOTFIX] modified package file
+- [FIX][98856][PVR]: Guide page stuck if scheduling the recording of last visible event of any channel which is has long duration
+- [FIX] [98963] Changed Dynamic variable in PO File
+- [FIX][96765] Last tuned channel gets blank on exiting Active services
+- [HOTFIX] Favorites fix if webapp.cfg datas non consistent
+- [FIX] [9886] Fix for playback not working first time after boot
+- [HOTFIX] Update label on popup message
+- [FIX][98326] handle AV blackout on launching HOME after viewing channel for 30 mins
+- [FIX][98878] crash after long home press on setting screen
+- [US][89829|89688] Favorites Management
+- [FIX][97762] Ui is now retriving the good informations from boot sequence script
+
+1.1.16.18.65
+- [HOTFIX] modified package file
+- [HOTFIX] PO file changes
+- [HOTFIX] Remaining Locale Changes
+- [FIX][98857] Info Banner is now displaying the good channel from a filtered channel in epg grid
+- [FIX][98768] Regional genre is displayed in Entertainment/Movies/News &Business genre after pressing Navigation DOWN key
+- [HOTFIX] Update text on Popups
+- [HOTFIX] Locale Changes For PO File
+- [FIX][96766] Advt banner is not displayed when navigating UP/down in channel list after P+/-
+- [US][89663] Recharge Reminder Story
+- [FIX] [96654] Remove Rec From ChannelList
+- [FIX] [96570] Conflict on zapping from ongoing recording to MOD
+- [HOTFIX] updated hindi text for master reset
+- [HOTFIX] Reenabling Usb fomatting banner
+
+1.1.16.18.64
+- [HOTFIX] modified Package file
+- [HOTFIX] Resumed Play on Back from Tp info and Correct Schedule time for Recharge Reminder
+- [US][89663] Recharge Reminder Fixes
+- [HOTFIX] Removed unwanted Play call and fixed  Unable to start recording using Record hotkey
+- [HOTFIX] EPG watch
+- [HOTFIX] Home Menu Play and Clock on Home Menu
+- [FIX][98541] Home Menu navigation is now more smooth
+- [FIX] [87431] Fix the green zero button functionality
+- [FIX][96876][Change Request]Reset Option is not present in EPG Menu
+
+1.1.16.18.63
+- [HOTFIX] Modified package.json
+- [FIX][98620][FTA Block] Press Home to Exit text is displayed on STB info sheet and TP info When STB is in FTA block mode
+- [HOTFIX] Remove background next program
+- [FIX][98541] Home Menu navigation is now more smooth
+- [HOTFIX] Simplify Scaling Screen + call close on home menu item signal
+- [FIX][93186] Home banner is now more smooth
+- [HOTFIX] Remove trailing-spaces no-unused-vars and Capitalized Channels Name in Favorites
+- [TS][98679] clean-up the UI part of the zap
+- [US][85142]removal of timeout and handling back on completion of Play current channel call
+- [US][87084] Integration for favorite page
+- [US][91728] Handle No signal during record playback and an on-going recording
+- [FIX] [98134] Ignoring Play key on 'Add Manual Recording/ No TV Recording Available‘
+- [FIX] [96654] Stop Recording On MOD Channel
+
+1.1.16.18.62
+- [HOTFIX] Removed unwanted Request from Player
+- [FIX] [98621] My recordings page getting blank on reboot
+
+1.1.16.18.61
+- [HOTFIX] modified Package file
+- [FIX][98472] n Boot STB doesn't show UI (Main Hub) after Force Slide / Landing Channel
+- [HOTFIX] fix for svl version change event before recording
+- [HOTFIX] Ledmnager import incase of schedule conflict default case
+- [FIX][89052] LED state(blinking/Fix) not working properly on USB removal and recording
+
+1.1.16.18.60
+- [HOTFIX] Modified Package JSON
+- [FIX][96260] fix for STB auto switching form Contact Us /SMS Service Screen to My Account Screen after 10 Sec
+- [US][87430|94249] Specific shortcut button for Favorites Management
+- [FIX[89426] Screens Overlapping Issue
+- [FIX][93986] [Alfa][P01][EXT][Performance][F03][Channel list] Configured channel logos are displayed for services with no logos configured
+- [FIX] [94027] Fix for Audio gets muted while pressing back              from Settings Menu
+- [US][88643] Fix for Software update popup stuck
+- [FIX][96766] Advt banner is not displayed when navigating UP/down in channel list after P+/-
+- [FIX][90873][Alfa][P03][EXT][F08][UI]: Hindi is not implemented properly on some Popup/Screens and other related fix
+- [TS][97810]Updating LCN, Number of Hd Channels , Price Tag & Vc Number on HD Unsubscribed Error Plate
+
+1.1.16.18.59
+- [HOTFIX] MOdified Package file
+- [US][89661][89663][89665] Implement Recharge Reminder Information
+- [US][89664][89666] FingerPrinting for timeshift and record
+- [FIX][95920]Fix for no Program Info on Action Menu when invoked from Live or Channel List
+
+1.1.16.18.58
+- HOTFIX Modified Package file
+- [FIX][91942]Remove 00 from hours spinners and remove {nth}
+- [FIX] [97479] Fix for AV BLACK on launching main hub
+- [US][85142]fix for enter exit very TransponderList frequently
+- [US][91728] Back to live on no signal
+- [FIX] [97057]  Fixed USB formatting text is getting HIDE
+- [FIX] [98029] Replace the advt banner
+- [TS][97813] Active Services UI is not consistent with Dish Brand theme
+- [FIX][82694][91942] Start Time is displayed in 24 hr format Channel list displays blank
+- [FIX] [95141] Fixing following Issues : 	1. Sometimes single press VOL- key ,mute the audio 	2. The volume bar progress is not linear 	3. Change the long press holding time for Vol - Key to 5 secs 	4. If vol- press down after Back key pressed on any UI(Settings, 	Home) audio gets mute always.
+- [FIX] [84540] Fix for AV freeze on zapping during pause state
+- [FIX] [96795] Fix for stopping rewind on pressing HOME
+
+1.1.16.18.57
+- [HOTFIX] Modified Package.json
+- [HOTFIX] Handlingthe TPInfo scrolling in FTA
+- [FIX][93910] [EXT][P01][F08][UI] Text truncated on various UI screen
+- [FIX][97499] Revolving icon rotate continuously if Press OK on Reinstall service without RF signal
+- [US][92170] scrolling pagination in TransponderInfo Screen
+
+1.1.16.18.56
+- [HOTFIX] change the bump version in packageJson file
+- [HOTFIX] Hide infobanner if no services are found
+- [US][94389] Enable Numeric/P+/P- zap and MOD/GUIDE buttons on home
+- [US][86635] Set LNB params, Diseqc, DVB URI as per IF2IF on Factory Set
+- [FIX][94291] [EXT][F03][Channel list]STB display the same genre for all channels while navigating in channel list
+- [HOTFIX] Fix dependency caniusdb
+- [FIX][96654] User is able to record MOD channel
+
+1.1.16.18.55
+- Revert "[FIX][91942] Channel list displays blank on opening Add Manual Recording page"
+- [HOTFIX] Modify package.json and css linter error fix
+- [FIX][96524] [EXT][P1][DISH LOGO] DISH TV LOGO is truncated
+- [US][96183][FIX][96735]removing reminders label and adding back & exit label on STB Infosheet and TransponderInfo
+- [FIX][97753] Fixed mod error plate currency text & some other text changed
+- [FIX] [97350] [97132] Increase Home Long Press Time and replace the text Dolby
+- [FIX][96257] STB comes out of FTA block mode if home TP changes to DD TP
+- [US][95636] Allowing back and ch+/- before UI has started
+- [FIX] [93398] review comments incorporated
+- [FIX] [93398] Fix For Improper Regional Page 1. Circular Navigation is working now . 2. Highligher should not be  visible on Blank Fields 3. The position of picto and last entry should be aligned
+- [FIX][97057] USB formatting text Unhide
+- [FIX] [96771] Fix infobar display when stop manual record
+- [FIX] [96766] Fix for Ad banner not coming
+- [US][89614] PVR, Record action on ch without EIT/EPG info
+- [US] [91154] progress bar during reboot when svl changed
+- [FIX][97058] Blue Coloured text in extended Channel Info bar
+- [FIX][91942] Channel list displays blank on opening Add Manual Recording page
+- [FIX][97123] In Guide the sub navigation level does not have a heading
+- [FIX][96972] Show horizontal navigation arrow in STBInfoSheet
+- [HOTFIX] Favorite toogle causing DVB issue in channel list
+
+1.1.16.18.54
+- [US][81333][88335]Launching various Scan or TPlist or TP Info  while record in progress
+- [US][87431] Specific shortcut/Combo button for Active, MyDishtv, Factory Reset and Easy Scan
+-   [ HOTFIX] Changes in UI done for:    1 Default Resolution set on launching First Installation Screen    2 Check in Main A/V Menu , if same resolutio is set , no call to M/W     from UI Resolution screen in FI
+- [US][82985] enable record on unsubscribed popups
+- [HOTFIX] Update Package Json
+- [HOTFIX] LED should start blinking in case of conflict recording
+- [FIX][96047] Permanent black screen  When Recording starts on future scheduled recording in case playback
+- [FIX][96047] Permanent black screen appeared. When Recording starts on future scheduled recording
+- [HOTFIX]:prevent retune of landing channel on startup
+
+1.1.16.18.53
+- [HOTFIX] Modify Package JSON
+- [US][88643] FI based on webapp, update locale, discard FTA block popup
+- [FIX][93200] fix for current channel after Dvbtable update
+- [FIX][87304] F11-07, PVR, Conflict/tuner, UseCase Record & Record
+- Merge branch 'wip-91154_Remove_console_and_fixed'
+- [HOTFIX] Remove indention error and Log Console
+- [FIX] [95625] EPG Grid Issue Fix With Overlapping
+- [HOTFIX] Remove indention error and Log Console
+- [US][91154] Fixed some locale text file changes
+- [US][91154]Fake Progress Bar After Svl Changed
+- [HOTFIX] console.log removed
+
+1.1.16.18.52
+- [HOTFIX] Modify Package JSON
+- [HOTFIX]Including Press Home to Exit label in TransponderInfo screen
+- [HITFIX] Fix Audio Subtrack List Navigation
+- [US][91728]optimizing the conditions for scan in FTA
+- [US][91728][TS][93824]optimizing the Rf connect disconnect case in FTA block after FI
+- [US][91728][TS][93824]Handling the No Signal in first Install and FTA block
+- Merge branch 'wip_95364_Mute_UnMute_Issue' into 'master'
+- [FIX][94030] Fix Unable to re-launch option menu via OK key
+- [FIX] [95364] Fix provided for automatic unmute after coming back from TV Guide / My Recording Screens.
+- [FIX][88808] Fix for pause icon disappearing
+
+1.1.16.18.51
+- [FIX][91490]Fix for TP List shows no of services in rollback
+- [US][91728][TS][93824]Rollback for IFTOIF, SVL version scan No Signal scenarios
+- [HOTFIX] Styling and disable start scan button
+- [HOTFIX] changed the Package Version and FTA VC PopUp issue Resolved
+- [FIX][95150|96522] getting subscription info on playing current channel
+- [FIX][96257] STB comes out of FTA block mode if home TP changes to DD TP
+- [TS] [97247] Finger Print Position is Not Correct
+- [HOTFIX] Handling Back Buttton on Reinstall popup & changing TransponderList polling time to 2 sec
+- [FIX][93565] MyAcc key press
+- [HOTFIX] Fix the audio track not selected if there are more than 5 audio tracks
+- [FIX] [95625] Fix Video Frame Stuck on Standby RecordList and Guide
+- [DF][95600] set activeDelegate on back of Program details
+- [TS] [97246] UI is not able to show properly Price in Unit & Decimal [US] [96364] Conax, MOD, Showing Pricetag Information from Conax in MOD Plate
+- [TS][97245] Fixed CA menu with Unsubscribed Popup
+- [US][82985] Stop player before retune on unsubscribed event and block timeshift on unsubscribed channel
+- Defect_95144:subscription info quried again on reconnect signal
+- [FIX][85071] Recording conflict on scheduling 2 consecutive recordings on different channel
+- [FIX][94359] Channel number and channel name is missing from info banner and channel list when UI language changed from Eng to Hindi and vice versa
+- [FIX][96725] "301. Signal not found" doesn't changed to "102. VC deactivated" message if rebooted without signal
+- [FIX] [96658] Disable OK ON Scan Complete Popup
+- [FIX] [92503] Show Pause Icon On Cancle Conflict Tuner Popup
+
+1.1.16.18.50
+- [HOTFIX] STBInfosheet and TPlist button removed from 101 plate in activated mode
+- [TS][96914] Cloning R10 to R11
+- [FIX][94825] STB doesn't launch easy scan if the SVL version is changed in Standby mode
+- [US][87310] ongoing Pvr stops on SWupdate
+- [US][85915] handling color button on advance screen in fta
+- [US][85915] StbInfo flicker and Advancescan stuck fix
+- [FIX][93200] STB is tune to channel 1 on pressing CH+ key when left the STB running for 10 to 12 mins
+- [HOTFIX] LED not blinking for scheduled recording.
+- [HOTFIX] fix for broken LED record
+- [DF][96439] Genre id updated for Hindi & English
+- [HOTFIX] Fix for Transponder list page navigattion
+- [US][88650] Add locale
+- [US][88632][88634][88646][88650] First Install coponent files added
+- [US][88632][88634][88646][88650] First Install feature implementation
+- [FIX][92068] LED blink issue
+- [FIX][94364] Option screen is stuck when select WATCH option in channel list after navigate to AUDIO option in option menu
+
+1.1.16.18.49
+- [HOTFIX] Liberty Frog-UI version updated
+- [FIX][92240|86532] epg conflict popup navigation on back/ok, show usbbanner with infobanner if usb connected
+- [HOTFIX] onDisable protect cause without it will fail the start of the UI
+- [HOTFIX] time at 12 pm and stop led blink on conflict
+- [HOTFIX] Favorites colors & Scan + vcDeactivated
+- [FIX][96524] DISH TV LOGO is truncated
+- [FIX][91492] My Dish TV page is not as per the latest PRD.
+
+1.1.16.18.48
+- arranging the list view for scaling issue
+- Removal of sorting to comply the order as per PRD List
+- [HOTFIX] Stop recording is not working and other fix related to  manual recs
+
+1.1.16.18.47
+- [HOTFIX] stop Led on when schedule state is changed to completed
+- [FIX][95794] Fixed Garbage Value On Recorded Stream
+- [TECHNICAL] package.json updated for babel-plugin-module-resolver:2.5.0
+- [FIX][89574] 500GB/1TB HardDisk detection
+- [FIX][96044] Cancelling ongoing recording from channel list make it disappear
+- [US][87084|89755|89688|89692|89755|89757|89829|94249] Favorites Management Beta
+
+1.1.16.18.46
+- [FIX][86532] Infobanner should always display
+- [DF][96157] Captalized title in setting sub screens
+- [DF][96156] Marketing js Changes reverted for CAS
+- [FIX][96103] Recording play back banner stuck on screen
+- [FIX][96103|96109] show operator logo on playback
+- [FIX][82694] remove AM/PM in 24hour format
+- [DF][96155] Dish marketing fixes
+- [FIX][86532] Show USB banner on pause
+- [HOTFIX] New USB connecting popup on VC deactivate plate Channel list disappear regression Icon not disappear while cancelling future recordings from channel list
+- [FIX][96045] Multiple fixes, manual record 12 hour, reboot usb, warnings
+- [US][89666] Additional changes for corner cases
+- [US][89666] Fingerprinting on Record
+- [HOTFIX] Removed unwanted calls from PlayerManager scanManager
+- [HOTFIX] Ignore IMs on PPV and CAmenu
+- [US] [89602] stablizing instant messages
+- [US][85915] Implement Standby on Advance Screen in Fta block
+- [FIX] [95480] Implementation the Home Long Press with FTA Block in stb screen
+- [US][85915] Adding Home Long Press button on FTA Block
+- [US][85915] Implement Standby on Advance Screen in Fta block
+- covering corner cases
+- Fixes for fingerprint on timeshift & instant messages
+- [FIX] [95480] Implementation the Home Long Press with FTA Block in stb screen
+- [US][85915] Adding Home Long Press button on FTA Block
+- [FIX][96048] Adbanner gets stuck on fast forward of playback/timeshift
+- [HOTFIX] PVR Unable to stopped the record content via REC button
+- [FIX][95108] locale changes, call center number updated
+- [FIX][95108|95798] set factory reset values to 720p, 12h, background color of audio tracks, scan progress
+- [HOTFIX] Black screen appeared if recording starts on channel other than the tuned in case of Manual recording
+- [HOTFIX] On scheduling instant or cancelling ongoing recording from channel list channel list disappears
+- [HOTFIX]:content.status is used instead of global isPluged flag
+- [HOTFIX] Stopping record via Rec key
+- [FIX][96046]Failed recordings does not disappear from My Recordings List
+- [DF][96053] hide unsubscribed channel popup during record playback
+- [HOTFIX]:Duplicate recordings and my recordings
+- [HOTfix] refresh MyAccount screen every 10 seconds
+- [FIX] [89654] Fix Standby Issue On CAM Present
+- [FIX][95794] Audio Track Garbage Value Display Fixed
+- [US] [89602] cnx instant message fix
+- [US] [90906] Modify calling of BackButton for  Mod and show Log on mod call
+- Defect 81798:Lcn sorting is done for channel list and Guide
+- [FIX][90325] Recording margin changed to 2mins
+- Revert "[TECNICAL] Advertisement UseCase of InfoBanner"
+- [FIX][95795] TPInfo Home TP blinking in FTA Block
+- [DF][86532] handle timeshift banner on pause/infobanner/channel zap
+- [HOTFIX] Dish Cosmetic Changes
+- [HOTFIX] After Scan set the current channel to DefaultChannel from web.cfg
+- [HOTFIX] locale changes issue revert fix
+- [HOTFIX] Remove the indentation
+- [HOTFIX] Format Popup on partition Added
+- [HOTFIX] recording banner is not coming if recording starts on channel which is not tuned
+- [FIX] [89686] Splash Screen Cam Popup
+- [US] [89686] Block Record On MOD Channel
+
+1.1.16.18.45
+- [93910] Text Correction Various UI Screen
+- [HOTFIX] locale changes issue revert fixwq
+- [HOTFIX] default landing channel changed to 95
+- [HOTFIX] config.json reverted
+- [FIX][88282|95404] Mutiple UI fixes with Manual record Insufficient error popup
+- [HOTFIX] timeformat 12 hr, Connect USB, default factory reset
+- [FIX][92694] Start Time is displayed in 24 hr format while scheduling a manual recording.
+- [HOTFIX] Modify CamManager at boot Time
+- [HOTFIX] Modify MoveDown method on Transponder List
+- [HOTFIX] Fix for LED blink for future recordings
+- [HOTFIX] fix for cancel schedule recording
+- [HOTFIX] Locale changes for new popup added for pvr conflicts
+- [HOTFIX] Avoid Channel Update on Screen TransponderList this will be uncomment once Issue is Resloved from MW
+- [US][89602] Conax Instant Messages
+- [US][89664] FingerPrinting for timeshift
+- [HOTFIX] USB format icon position fix
+- [FIX] [91773] audio track reset on factory reset
+- [HOTFIX] future ongoing Recoding on channel list fix
+- [HOTFIX] Remove PlayerManager's play call at every tv:close
+- [HOTFIX] Modify MOD changes on Home menu and add CamManager on storageManager file
+- [HOTFIX] fix for zapping with ongoing recording
+- [HOTFIX] fix for recording popup message
+- [FIX] [90906] Initiate a query to the MW to get the Mod Channel List and tune to lower lcn
+- [FIX][90906] Map the shortcut button of MOD in UI
+- [US][89612] MOD Information For Error Plate 501
+- Revert "[FIX][82694] Start Time is displayed in 24 hr format while scheduling a manual recording"
+- [FIX] [89654] Handle Home Universe When Cam Module Open
+- [US] [89654] Block Conax Feature If CAM Inserted
+- [HOTFIX] Modify Tune to Player after easy scan and Modify  FTA in  First Boot
+- [TECNICAL] Advertisement UseCase of InfoBanner
+- [FIX][93983] Easy scan is now laucnhed with only one OK press
+- [US][85915]final changes for Subscription Package List as per Reference box
+- [US][85915]StbInfosheet Subscription Package handling of selectors arrows with scrolling
+- [US][85915]StbInfo Sheet Subscription package scrolling
+- [US][85915] UI and api implementation
+
+1.1.16.18.44
+- [FIX][82694] Start Time is displayed in 24 hr format while scheduling a manual recording
+- [HOTFIX] Remove CAM popUp on First Boot
+- [FIX] [89633] Apply paging in CAM Menu
+- [FIX] CAM Alignment
+- [HOTFIX] [89633] Fix Popup Ok Issue when CAM is inserted
+- [HOTFIX] uncommented software update and bus debug logs
+- [HOTFIX] code removed for skipping fta
+- [FIX][82694] Start Time is displayed in 24 hr format while scheduling a manual recording
+- [FIX][82694] Start_Time_is_displayed_in_24_hr_format_while_scheduling_a_manual_recording
+- [TS][95044] Cloning R09 Stories to R10
+- [FIX][94253] STB always counts P+/- from last visited channel in Channel List
+
+1.1.16.18.43
+- [HOTFIX] Scan commit updated for rollback
+- [HOTFIX] Fix for focus during cold boot
+- [FIX][93355] PVR enable
+- [US][80802] PriceTag Information Of HD Unsubscribed Channels
+- [US][93355] Fix for 'USB disconnected popup doesn’t disappears on pressing OK' issue
+- [HOTFIX] Fixed Popup when CAM inserted on Boot
+- [US][91728] Handling of noSignal message in various Scenarios
+- [TS][93824] Zero services rollback implementation
+- [HOTFIX] Fixed seconds issue on Timeshift banner
+
+1.1.16.18.42
+- [HOTFIX] Code uncommented for scan trigger at boot
+- [HOTFIX] Fix for Manual Record Popup
+- [US][94216] Player behaviour on Grid and My Recording
+- [FIX][88808] Pause icon disappears on dismissing Channel List
+- [FIX][94273] Advertisement UseCase of InfoBanner
+- [US][89875] Diag, Help screen, Contact Us
+- [US][89874] Diag, Help screen, SMS Services
+- [US][89874] Diag, Help screen, SMS Services
+- [FIX][87841] Insufficient disk space popup message coming if pre-formatted usb disk is connected to STB.
+- [HOTFIX] [Resloved Event time issue on NFS]
+
+1.1.16.18.41
+- [HOTFIX] Connect import Cam Menu
+- [FIX][93984] Unable to zap to other channel after first boot
+- [HOTFIX] Remove indentation and consoleLog
+- [US] [93621] Add  Cam Menu In Setting Tools
+- [US] [89633] : Insert/Remove CAM
+- [US][93370] CA Menu Information
+- [US][89599] Application store renderer & manager
+- [US][81798] Replace watch by listen in channel list for radios
+- [US][89598] Advertisement Simplified solution
+- [FIX][90012] Manage long press for volume buttons and InfoBanner to ChannelList
+- [FIX][89898] Red LED is correctly set when pressing power during continous P+/P-
+- [FIX][90610] Reduce zap time (-200ms)
+- [FIX][93314] Channel are less skipped and video not displayed anymore when pressing P+
+
+1.1.16.18.40
+- Revert "[US] [93355] PVR Enable"
+- [FIX][93457] [On run-time (FTA to NON-FTA), Error 102 doesn't disappear and not Channel is not tuned]
+- [US] [93355] PVR Enable
+- [FIX] [92306] Dolby Audio Selection Fix
+- [US] [93208] Implemented New Font Family
+- [HOTFIX][Fta Block defect Fix]
+- [Fix][93459] Wrong pop-up on waking up from standby with signal disconnected
+- [FIX][93389] Double underscore '=' observed on numeric zap
+- [HOTFIX] Typo error on screen adjustement feature
+- [FIX][93373] Volume bar is invisible
+- [US][90620] Size of TV screen is reduced
+- [FIX][87834] Event End time and progress bar is missing on channel info bar
+- [HOTFIX] startcountdown changed to updatecountdown
+
+1.1.16.18.39
+- [HOTFIX] Fix Some Scan Related Issues and Remove console log.
+- [US][89593] incorporating review comments
+- [US][89592] incorporating review comments
+- [US][89591] [89592] [89593] [89594] [89595] [TS][93174][FTA Block Feature]
+- [FIX] [90681] Scanning Fix When STandby awake
+- [US][85142] incorporating review comments
+- [FIX][87212 92767 92871][US 85142] fix for TPInfo_screen_stuck status_bar_not_updated lnb_settings_not saved_optimization_code dish_need
+
+1.1.16.18.38
+- [FIX][90455] Channel Logo are now correctly displayed
+- [US][90170] Change Grid Filter screen
+- [US][90167] DishTv logo on live stream must be shifted to the left
+- [US][91628] Change the title of the settings
+- [REBASING][TS][92651] UI rebasing for specific defects between from Version Bump 2.0.31 to Version Bump 2.0.35
+- [FIX] [90007] Apply Check Of PVR Disable In Check Data Storage
+- [FIX][90007] Cold Boot PVR Disabled
+- [US][92622] Apply Message When Scanning Finished
+- [TECHNICAL] Update dependency and fix warning related to lint
+- [FIX][90620|85487|90753] Size of TV screen is reduced
+- [FIX][89898] During continously zapping standby key is not responding
+- [FIX][81798|93164] Radios are not list in epg - Epg has broken
+- [FIX][93178] Channel list is not dismiss after pressing the BACK key
+
+1.1.16.18.37
+- [US][85142] final changes after updated tone api for dynamic update
+
+1.1.16.18.36
+- [TECHNICAL] Add VERSION file to manage bump easily
+- [HOTFIX] Fix some hiding banner issues
+- [FIX] Missing import of updateTimeZone
+- [FIX][87301] Time format is changed to 24 after reboot
+- [FIX][81798] Radios are not listed in epg
+- [TECHNICAL] Update Contributing Guide
+- [FIX][89436] Numeric tune is not possible after dismissing action menu
+- [FIX][89597] Main HUB: improve navigation performances by removing opacity and useless vertical theme
+- [FIX][90450] Settings List, debounce calls to fillChildren method while scrolling TreeObj
+- [FIX][89898] During continously zapping standby key now responding correctly
+- [TECHNICAL] Handle Long RCU in Home Menu
+- [HOTFIX] fixed indentation error
+- [TECHNICAL] Manage RCU Long Press for Settings
+- [TECHNICAL] Manage RCU Long Press for EPGrid
+- [FIX][89903] Add RCU Long Press instead of repeating RCU Press Event to avoid to queue RCU Event
+- [FIX][90450] Use throttle on RCU events in  order to avoid too much calls while pressing continously an RCU key
+- [FIX][90450] Settings List, debounce calls to fillChildren method while scrolling TreeObj
+- [HOTFIX] fixed lint errors in advanced scan, settingsdub, transponderlist, playermanger, transponders, circularlist
+- [FIX][88753] Info banner of different channel is display
+- [FIX][81364] Mute bar hides in some scenarios
